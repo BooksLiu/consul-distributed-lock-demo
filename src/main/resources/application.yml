@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: MyApplication
+    version: v1
+
+server:
+  port: 8221
+
+endpoints.shutdown.enabled: true
+
+
+
+consul:
+  host: localhost
+  port: 8500
